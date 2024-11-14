@@ -1,0 +1,84 @@
+/* Basic Reset */
+* {
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height: 60vh; */
+  }
+  
+  header {
+    margin-bottom: 10px;
+  }
+
+  
+  .tag-list {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 5px 0px 5px 0px;
+  }
+  
+  .loop-slider {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    width: max-content;
+    animation: scroll var(--duration) linear infinite;
+    animation-direction: var(--direction);
+    
+  
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .inner {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .tag {
+    margin: 3px 15px;
+    padding: 10px 25px;
+    background-color: var(--color);
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    transition: transform 0.7s;
+  }
+  
+  .tag:hover {
+    transform: scale(1.1);
+  }
+  
+  .fade {
+    position: absolute;
+    top: 0;
+    left: 60;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 20%, rgba(255,255,255,0) 80%, rgba(255,255,255,1) 100%);
+  }
+  

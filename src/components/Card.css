@@ -1,0 +1,23 @@
+/* Basic Reset */
+* {
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+header {
+margin-bottom: 10px;
+}
+
+
+
+.mb-4 {
+    color: black;
+    font-size: 1rem;
+}
+
+.inner {
+display: flex;
+flex-direction: row;
+}
+
+  
