@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/porterfolio/static/css/main.332d3bed.css",
-    "main.js": "/porterfolio/static/js/main.e74ac26a.js",
-    "static/js/976.ffca5744.chunk.js": "/porterfolio/static/js/976.ffca5744.chunk.js",
-    "static/js/893.31414bc2.chunk.js": "/porterfolio/static/js/893.31414bc2.chunk.js",
-    "static/js/453.8ab44547.chunk.js": "/porterfolio/static/js/453.8ab44547.chunk.js",
-    "static/media/portz.png": "/porterfolio/static/media/portz.47dfb1807bda88b534d5.png",
-    "static/media/image.jpg": "/porterfolio/static/media/image.2c103a091acce093f2cf.jpg",
+    "main.css": "/porterfolio/static/css/main.c462689b.css",
+    "main.js": "/porterfolio/static/js/main.04929f70.js",
+    "static/js/976.cfaad0ec.chunk.js": "/porterfolio/static/js/976.cfaad0ec.chunk.js",
+    "static/js/893.1be1387f.chunk.js": "/porterfolio/static/js/893.1be1387f.chunk.js",
+    "static/js/453.abd36b29.chunk.js": "/porterfolio/static/js/453.abd36b29.chunk.js",
+    "static/media/artificial_intelligence.jpeg": "/porterfolio/static/media/artificial_intelligence.c736bc5532d28d0b9e77.jpeg",
+    "static/media/coding.jpeg": "/porterfolio/static/media/coding.4d4966906530c6f72ba1.jpeg",
+    "static/media/cloud_computing.jpeg": "/porterfolio/static/media/cloud_computing.367a8e647ca80e74f49f.jpeg",
+    "static/media/portz.png": "/porterfolio/static/media/portz.7f032e6bcce57303836c.png",
     "index.html": "/porterfolio/index.html",
-    "main.332d3bed.css.map": "/porterfolio/static/css/main.332d3bed.css.map",
-    "main.e74ac26a.js.map": "/porterfolio/static/js/main.e74ac26a.js.map",
-    "976.ffca5744.chunk.js.map": "/porterfolio/static/js/976.ffca5744.chunk.js.map",
-    "893.31414bc2.chunk.js.map": "/porterfolio/static/js/893.31414bc2.chunk.js.map",
-    "453.8ab44547.chunk.js.map": "/porterfolio/static/js/453.8ab44547.chunk.js.map"
+    "main.c462689b.css.map": "/porterfolio/static/css/main.c462689b.css.map",
+    "main.04929f70.js.map": "/porterfolio/static/js/main.04929f70.js.map",
+    "976.cfaad0ec.chunk.js.map": "/porterfolio/static/js/976.cfaad0ec.chunk.js.map",
+    "893.1be1387f.chunk.js.map": "/porterfolio/static/js/893.1be1387f.chunk.js.map",
+    "453.abd36b29.chunk.js.map": "/porterfolio/static/js/453.abd36b29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.332d3bed.css",
-    "static/js/main.e74ac26a.js"
+    "static/css/main.c462689b.css",
+    "static/js/main.04929f70.js"
   ]
 }
