@@ -72,31 +72,31 @@ html {
     transition: 0.5s;
   }
   .slider .slide:nth-child(1) {
-    background-image: url('../assets/image.jpg');
+    background-image: url('../assets/cloud_computing.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
   }
   .slider .slide:nth-child(2) {
-    background-image: url('../assets/image.jpg');
+    background-image: url('../assets/cloud_computing.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
   }
   .slider .slide:nth-child(3) {
-    background-image: url('../assets/image.jpg');
+    background-image: url('../assets/cloud_computing.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
   }
   .slider .slide:nth-child(4) {
-    background-image: url('../assets/image.jpg');
+    background-image: url('../assets/cloud_computing.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
   }
   .slider .slide:nth-child(5) {
-    background-image: url('../assets/image.jpg');
+    background-image: url('../assets/cloud_computing.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;

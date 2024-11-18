@@ -9,12 +9,12 @@ import {
   animate,
 } from "framer-motion";
 
-const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
-
+// const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+const COLORS_TOP = ["#FF00FF", "#7DF9FF", "#8A2BE2"]; 
 
 
 const handleClick = () => {
-  document.getElementById('navbar-container').scrollIntoView()
+  document.getElementById('about-section').scrollIntoView()
 };
 
 export const Hero = () => {

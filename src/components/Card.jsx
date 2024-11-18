@@ -5,29 +5,54 @@ import "./Card.css"
 const Card = () => {
   const [card, setCard] = useState(null);
 
-  useEffect(() => {
-      fetch('http://localhost:5000/api/experiences') // Your Flask backend URL
-          .then(response => response.json())
-          .then(data => setCard(data))
-          .catch(error => console.error('Error fetching the card:', error));
-  }, []);
+  // useEffect(() => {
+  //     fetch('http://localhost:5000/api/experiences') // Your Flask backend URL
+  //         .then(response => response.json())
+  //         .then(data => setCard(data))
+  //         .catch(error => console.error('Error fetching the card:', error));
+  // }, []);
 
-  if (!card) {
-      return <div>Loading...</div>;
-  }
+
+  const data = {
+    experiences: [
+      {
+        image: "https://i.ibb.co/r2zns1m/image-01.jpg",
+        title: "Default Title",
+        descripton: "Default description text here.",
+        button: "View Details"
+      },
+      {
+        image: "https://i.ibb.co/r2zns1m/image-01.jpg",
+        title: "Default Title",
+        description: "Default description text here.",
+        button: "View Details"
+      },
+      {
+        image: "https://i.ibb.co/r2zns1m/image-01.jpg",
+        title: "Default Title",
+        description: "Default descripsdcdssdction text here.",
+        button: "View Details"
+      },
+    ]
+  };
+  
+
+  // setCard(data)
+
+  // if (!card) {
+  //     return <div>Loading...</div>;
+  // }
   return (
     <>
       <section className="bg-gray-2 pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
         <div id="about-section" className="container">
           <div className="grid gap-x-8 mb-10 sm:grid-cols-2 lg:grid-cols-3 justify-items-center">
-            {card.experiences.map((experience) => (
+            {data.experiences.map((experience) => (
             <SingleCard
               image={experience.image || "https://i.ibb.co/r2zns1m/image-01.jpg"}
               CardTitle={experience.title || "Default Title"}
-              titleHref={experience.titleHref || "/#"}
-              btnHref={experience.btnHref || "/#"}
               CardDescription={experience.description || "Default description text here."}
-              Button={experience.Button || "View Details"}
+              Button={experience.button || "View Details"}
             />
           ))}
           </div>
@@ -44,8 +69,6 @@ const SingleCard = ({
   Button,
   CardDescription,
   CardTitle,
-  titleHref,
-  btnHref,
 }) => {
 
   const [anchor, setAnchor] = React.useState(null);
@@ -64,12 +87,8 @@ const SingleCard = ({
         <img src={image} alt="" className="w-full" />
         <div className="p-8 text-center sm:p-9 md:p-7 xl:p-9">
           <h3>
-            <a
-              href={titleHref ? titleHref : "/#"}
-              className="mb-4 block text-xl font-semibold text-dark hover:text-primary dark:text-white sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
-            >
+
               {CardTitle}
-            </a>
           </h3>
           {/* <p className="mb-7 text-base leading-relaxed text-body-color dark:text-dark-6">
             {CardDescription}

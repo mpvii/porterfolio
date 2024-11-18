@@ -1,6 +1,10 @@
 import React from "react";
 import { TECarousel, TECarouselItem } from "tw-elements-react";
 
+import slide1 from '../assets/cloud_computing.jpeg';
+import slide2 from '../assets/artificial_intelligence.jpeg';
+import slide3 from '../assets/coding.jpeg';
+
 export default function CarouselBasicExample() {
   return (
     <>
@@ -11,7 +15,7 @@ export default function CarouselBasicExample() {
             className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
           >
             <img
-              src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(15).jpg"
+              src={slide1}
               className="block w-full"
               alt="First slide"
             />
@@ -27,7 +31,7 @@ export default function CarouselBasicExample() {
             className="relative float-left hidden -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
           >
             <img
-              src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(22).jpg"
+              src={slide2}
               className="block w-full"
               alt="Second slide"
             />
@@ -43,7 +47,7 @@ export default function CarouselBasicExample() {
             className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
           >
             <img
-              src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(23).jpg"
+              src={slide3}
               className="block w-full"
               alt="Third slide"
             />

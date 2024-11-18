@@ -10,6 +10,7 @@ import SkillTreeCust from "../components/SkillTree";
 import ClassSelect from "../components/ClassSelect";
 import Background from "../components/Background";
 import CarouselBasicExample from "../components/Carousel";
+import SkillsGallery from "../components/SkillsGallery";
 
 
 
@@ -18,40 +19,30 @@ import CarouselBasicExample from "../components/Carousel";
 
 
 function Home() {
-    const words = ["React", "JavaScript", "CSS", "HTML", "Node.js", "Python", "Flask"];
-
-    
-
     const [selected, setSelected] = useState("light");
      
         return (
         <div className="App">
-            
-            {/* <div className="Background">
-            <Background/>
-            </div> */}
-
+             <Navbar className="fixed"/>
             <div className="Background">
                 <Background/>
             </div>
             <Hero/>
-            <Navbar/>
+           
             <div className="Card">
                 <Card/>
             </div>
             
-            
+            <SkillsGallery/>
 
-            <div className="px-48 py-20">
-            <CarouselBasicExample/>
+            <div className="px-36 py-20">
+                <CarouselBasicExample/>
             </div>
-             <div className="Portfolio">
-             <Portfolio/>
-            </div>         
+        
             {/* <ClassSelect/> */}
            
-            <SkillTreeCust/>
-            <Skills/>
+            {/* <SkillTreeCust/> */}
+            {/* <Skills/> */}
             
         </div>
         );
