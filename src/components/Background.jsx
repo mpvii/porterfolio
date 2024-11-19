@@ -39,7 +39,7 @@ import {
 import Skills from "./SkillsCarousel";
 
 // const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
-const COLORS_TOP = ["#FC037B", "#00EAFF"]; 
+const COLORS_TOP = ["#6366F1", "#FC037B", "#00EAFF"]; 
 
 export const Background = () => {
   const color = useMotionValue(COLORS_TOP[0]);
@@ -47,7 +47,7 @@ export const Background = () => {
   useEffect(() => {
     animate(color, COLORS_TOP, {
       ease: "easeInOut",
-      duration: 5,
+      duration: 10,
       repeat: Infinity,
       repeatType: "mirror",
     });

@@ -1,17 +1,19 @@
 import { useEffect, useRef } from "react";
 import anime from "animejs";
 import { useAnimation, useInView, motion } from "framer-motion";
-import { useGlitch } from 'react-powerglitch'
+import { useGlitch } from "react-powerglitch";
 
 import GlitchPhotoSwitcher from "./GlitchPhotoSwitcher";
-import Hacker from '../assets/hacker.jpeg';
+import WetPaintButton from "./WetPaintButton";
+
 const WaterDropHero = () => {
-    const glitch = useGlitch();
+  const glitch = useGlitch();
 
   return (
-    <section className="text-slat-100 overflow-hidden bg-slate-900 px-8 py-24 md:px-12 md:py-32">
-      <div className="flex space-x-16 mx-auto max-w-5xl">
-        <div className="pointer-events-none relative z-10">
+    <section className="text-slate-100 overflow-hidden bg-slate-900 px-8 py-8 md:px-12">
+      <div className="relative flex flex-col items-center md:flex-row md:space-x-12 mx-auto max-w-5xl">
+        {/* Text Content */}
+        <div className="relative z-10 text-center md:text-left flex-1 mb-6 md:mb-0">
           <Reveal>
             <h1 className="pointer-events-auto text-6xl font-black text-slate-100 md:text-8xl">
               Hi, I'm Mark<span className="text-indigo-500">.</span>
@@ -26,80 +28,35 @@ const WaterDropHero = () => {
             </h2>
           </Reveal>
           <Reveal>
-            <p className="pointer-events-auto max-w-xl text-left text-sm text-slate-300 md:text-base">
-              I've spent the last 5 years building and scaling software for some
-              pretty cool companies. I also teach people to paint online (incase
-              you've got an empty canvas layin' around 🎨). Let's connect!
+            <p className="pointer-events-auto max-w-xl mx-auto md:mx-0 text-sm text-slate-300 md:text-base">
+              I've spent the last 6 years in industry building and scaling
+              software.
             </p>
           </Reveal>
           <Reveal>
-            <button className="pointer-events-auto mt-4 rounded bg-indigo-600 px-4 py-2 font-medium text-slate-100 transition-all hover:bg-indigo-700 active:scale-95 md:mt-6">
+          <div className="flex-auto min-h-[100px] place-content-center space-x-4 bg-slate-900 py-2">
+           <WetPaintButton text="Contact Me"/>
+           <WetPaintButton text="Download My CV"/>
+           <WetPaintButton text="View My Profiles"/>
+          </div>
+            {/* <button className="pointer-events-auto mt-4 rounded bg-indigo-600 px-4 py-2 font-medium text-slate-100 transition-all hover:bg-indigo-700 active:scale-95 md:mt-6">
               Contact me
-            </button>
+            </button> */}
           </Reveal>
         </div>
-        <GlitchPhotoSwitcher/>
-        {/* <DotGrid /> */}
+
+        {/* Image/Photo Switcher */}
+        <motion.div
+          className="flex-1 w-full max-w-xs md:max-w-md mt-8 md:mt-0"
+        //   style={{ height: "90%" }}
+        //   initial={{ opacity: 0, x: 100 }}
+        //   animate={{ opacity: 1, x: 0 }}
+        //   transition={{ duration: 0.5 }}
+        >
+          <GlitchPhotoSwitcher />
+        </motion.div>
       </div>
     </section>
-  );
-};
-
-const GRID_WIDTH = 25;
-const GRID_HEIGHT = 20;
-
-const DotGrid = () => {
-  const handleDotClick = (e) => {
-    anime({
-      targets: ".dot-point",
-      scale: [
-        { value: 1.35, easing: "easeOutSine", duration: 250 },
-        { value: 1, easing: "easeInOutQuad", duration: 500 },
-      ],
-      translateY: [
-        { value: -15, easing: "easeOutSine", duration: 250 },
-        { value: 1, easing: "easeInOutQuad", duration: 500 },
-      ],
-      opacity: [
-        { value: 1, easing: "easeOutSine", duration: 250 },
-        { value: 0.5, easing: "easeInOutQuad", duration: 500 },
-      ],
-      delay: anime.stagger(100, {
-        grid: [GRID_WIDTH, GRID_HEIGHT],
-        from: e.target.dataset.index,
-      }),
-    });
-  };
-
-  const dots = [];
-  let index = 0;
-
-  for (let i = 0; i < GRID_WIDTH; i++) {
-    for (let j = 0; j < GRID_HEIGHT; j++) {
-      dots.push(
-        <div
-          className="group cursor-crosshair rounded-full p-2 transition-colors hover:bg-slate-600"
-          data-index={index}
-          key={`${i}-${j}`}
-        >
-          <div
-            className="dot-point h-2 w-2 rounded-full bg-gradient-to-b from-slate-700 to-slate-400 opacity-50 group-hover:from-indigo-600 group-hover:to-white"
-            data-index={index}
-          />
-        </div>
-      );
-      index++;
-    }
-  }
-
-  return (
-    <div
-      onClick={handleDotClick}
-      style={{ gridTemplateColumns: `repeat(${GRID_WIDTH}, 1fr)` }}
-      className="absolute right-0 top-[50%] z-0 grid max-w-[75%] -translate-y-[50%]"
-    >
-      {dots}
-    </div>
   );
 };
 

@@ -57,7 +57,7 @@ const CardCarousel = () => {
   };
 
   return (
-    <section ref={observerRef} className="bg-slate-100">
+    <section ref={observerRef} className="bg-slate-800 py-4">
       <motion.div
         className="relative overflow-hidden p-4"
         initial={{ opacity: 0, y: 50 }}
@@ -66,8 +66,8 @@ const CardCarousel = () => {
       >
         {/* CARDS */}
         <div className="mx-auto max-w-6xl">
-          <p className="mb-4 text-2xl font-semibold">
-            Everything. <span className="text-slate-500">Yes, even that.</span>
+          <p className="mb-4 text-white text-5xl font-semibold pb-2 text-white md:flex-row md:gap-4">
+             I have worked on Everything. <span className="text-indigo-500 font-semibold">Yes, even that.</span>
           </p>
           <motion.div
             animate={{

@@ -2,37 +2,6 @@ import { useEffect, useRef } from 'react';
 import * as DevIcons from 'devicons-react';
 
 const skills = [
-  { name: 'HTML', Icon: DevIcons.Html5Original, color: '' },
-  { name: 'CSS', Icon: DevIcons.Css3Original, color: '' },
-  { name: 'JavaScript', Icon: DevIcons.JavascriptOriginal, color: '' },
-  { name: 'React/React Native', Icon: DevIcons.ReactOriginal, color: '' },
-  { name: 'Node.js', Icon: DevIcons.NodejsOriginal, color: '' },
-  { name: 'Python', Icon: DevIcons.PythonOriginal, color: '' },
-  { name: 'Git', Icon: DevIcons.GitOriginal, color: '' },
-  { name: 'Java', Icon: DevIcons.JavaOriginal, color: '' },
-  { name: 'C#', Icon: DevIcons.CsharpOriginal, color: '' },
-  { name: 'Ruby', Icon: DevIcons.RubyOriginal, color: '' },
-  { name: 'Swift', Icon: DevIcons.SwiftOriginal, color: '' },
-  { name: 'PostgreSQL', Icon: DevIcons.PostgresqlOriginal, color: '' },
-  { name: 'Docker', Icon: DevIcons.DockerOriginal, color: '' },
-  { name: 'Kubernetes', Icon: DevIcons.KubernetesOriginal, color: '' },
-  { name: 'Linux', Icon: DevIcons.LinuxOriginal, color: 'white' },
-  { name: 'GitHub', Icon: DevIcons.GithubOriginal, color: 'white' },
-  { name: 'GitLab', Icon: DevIcons.GitlabPlain, color: '' },
-  { name: 'Bitbucket', Icon: DevIcons.BitbucketOriginal, color: '' },
-  { name: 'Jira', Icon: DevIcons.JiraPlain, color: '' },
-  { name: 'Confluence', Icon: DevIcons.ConfluenceOriginal, color: '' },
-  { name: 'Jenkins', Icon: DevIcons.JenkinsPlain, color: '' },
-  { name: 'Terraform', Icon: DevIcons.TerraformOriginal, color: '' },
-  { name: 'Photoshop', Icon: DevIcons.PhotoshopOriginal, color: '' },
-  { name: 'Premiere Pro', Icon: DevIcons.PremiereproOriginal, color: '' },
-  { name: 'AWS', Icon: DevIcons.AmazonwebservicesPlainWordmark, color: 'white' },
-  { name: 'Scikit-learn', Icon: DevIcons.ScikitlearnOriginal, color: '' },
-  { name: 'PyTorch', Icon: DevIcons.PytorchOriginal, color: '' },
-  { name: 'Tensorflow', Icon: DevIcons.TensorflowOriginal, color: '' },
-];
-
-const skills_future = [
     { name: 'Go', Icon: DevIcons.GoOriginal, color: '' },
     { name: 'TypeScript', Icon: DevIcons.TypescriptOriginal, color: '' },
     { name: 'Rust', Icon: DevIcons.RustLine, color: 'white' },
@@ -40,7 +9,7 @@ const skills_future = [
   ];
 
 
-const SkillsGallery = () => {
+const SkillsFuture = () => {
     const containerRef = useRef();
   
     useEffect(() => {
@@ -92,5 +61,5 @@ const SkillsGallery = () => {
     );
   };
   
-  export default SkillsGallery;
+  export default SkillsFuture;
   

@@ -10,7 +10,7 @@ import {
 } from "framer-motion";
 
 // const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
-const COLORS_TOP = ["#FC037B", "#00EAFF"]; 
+const COLORS_TOP = ["#6366F1", "#FC037B", "#00EAFF"]; 
 
 
 const handleClick = () => {
@@ -23,7 +23,7 @@ export const Hero = () => {
   useEffect(() => {
     animate(color, COLORS_TOP, {
       ease: "easeInOut",
-      duration: 5,
+      duration: 10,
       repeat: Infinity,
       repeatType: "mirror",
     });
@@ -46,11 +46,11 @@ export const Hero = () => {
           Download My CV
           <FiDownload className="transition-transform group-hover:scale-105 group-hover:rotate-12 group-active:-rotate-45" />
         </motion.button>
-        <h1 className="max-w-3xl bg-gradient-to-br from-white to-gray-400 bg-clip-text text-center text-3xl font-medium leading-tight text-transparent sm:text-5xl sm:leading-tight text-7xl md:leading-tight">
+        <h1 className="max-w-3xl bg-gradient-to-br from-white to-gray-400 bg-clip-text text-center text-3xl font-black leading-tight text-transparent sm:text-5xl sm:leading-tight text-7xl md:leading-tight">
           Mark Porter
         </h1>
         <h2>Poynton, Stockport</h2>
-        <p className="my-6 max-w-xl text-center text-base leading-relaxed md:text-lg md:leading-relaxed">
+        <p className="my-6 max-w-xl text-center font-black text-base leading-relaxed md:text-lg md:leading-relaxed">
           Senior AI Platform Engineer
         </p>
         <motion.button
@@ -64,7 +64,7 @@ export const Hero = () => {
           whileTap={{
             scale: 0.985,
           }}
-          className="group relative flex w-fit items-center gap-1.5 rounded-full bg-gray-950/10 px-4 py-2 text-gray-50 transition-colors hover:bg-gray-950/50"
+          className="group relative flex w-fit items-center gap-1.5 rounded-lg bg-gray-950/10 px-4 py-2 text-gray-50 transition-colors hover:bg-gray-950/50"
           onClick={handleClick}
         >
           Learn about me!
