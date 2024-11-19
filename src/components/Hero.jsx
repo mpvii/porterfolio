@@ -10,7 +10,7 @@ import {
 } from "framer-motion";
 
 // const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
-const COLORS_TOP = ["#FF00FF", "#7DF9FF", "#8A2BE2"]; 
+const COLORS_TOP = ["#FC037B", "#00EAFF"]; 
 
 
 const handleClick = () => {
@@ -23,7 +23,7 @@ export const Hero = () => {
   useEffect(() => {
     animate(color, COLORS_TOP, {
       ease: "easeInOut",
-      duration: 10,
+      duration: 5,
       repeat: Infinity,
       repeatType: "mirror",
     });

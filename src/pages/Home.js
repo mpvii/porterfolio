@@ -11,6 +11,9 @@ import ClassSelect from "../components/ClassSelect";
 import Background from "../components/Background";
 import CarouselBasicExample from "../components/Carousel";
 import SkillsGallery from "../components/SkillsGallery";
+import Footer from "../components/Footer";
+import WaterDropHero from "../components/WaterDropHero";
+import CardCarousel from "../components/CardCarousel";
 
 
 
@@ -23,15 +26,21 @@ function Home() {
      
         return (
         <div className="App">
-             <Navbar className="fixed"/>
+             
             <div className="Background">
                 <Background/>
             </div>
             <Hero/>
-           
-            <div className="Card">
-                <Card/>
+            <div id="about-section">
+            <WaterDropHero/>
             </div>
+
+            <CardCarousel/>
+          
+            {/* <Navbar /> */}
+            {/* <div className="Card">
+                <Card/>
+            </div> */}
             
             <SkillsGallery/>
 
@@ -43,7 +52,7 @@ function Home() {
            
             {/* <SkillTreeCust/> */}
             {/* <Skills/> */}
-            
+            <Footer/>
         </div>
         );
     }

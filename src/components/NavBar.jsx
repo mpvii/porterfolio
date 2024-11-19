@@ -79,49 +79,42 @@ const Navbar = () => {
   const border = useMotionTemplate`1px solid ${color}`;
   const boxShadow = useMotionTemplate`0px 4px 4px ${color}`;
 
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const topBorder = document
-  //       .getElementById("navbar-container")
-  //       .getBoundingClientRect().top;
+  useEffect(() => {
+    const handleScroll = () => {
+      const topBorder = document
+        .getElementById("navbar-container")
+        .getBoundingClientRect().top;
 
-  //     topBorder >= 0
-  //       ? document.getElementById("navbar").classList.remove("fixed")
-  //       : document.getElementById("navbar").classList.add("fixed");
-  //   };
+      topBorder >= 0
+        ? document.getElementById("navbar").classList.remove("fixed")
+        : document.getElementById("navbar").classList.add("fixed");
+    };
 
-  //   // Add scroll event listener on component mount
-  //   window.addEventListener("scroll", handleScroll);
+    // Add scroll event listener on component mount
+    window.addEventListener("scroll", handleScroll);
 
-  //   // Clean up event listener on component unmount
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []); // Empty dependency array ensures this runs only once on mount/unmount
+    // Clean up event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []); // Empty dependency array ensures this runs only once on mount/unmount
 
-  // const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false);
   
 
   return (
 
       <section id="navbar-container">
-              <nav className="bg-opacity-10 bg-gray-50 z-10 fixed flex transition-transform  justify-center items-center  space-x-2 w-full px-4 py-2" id="navbar">
-                {/* <ul className="flex transition-transform  justify-center items-center  space-x-4 w-full p-4"> */}
-                  <img className="class=w-12 h-12 object-cover" src={Portz} onClick={()=>handleClick("home-section")}></img>
-                  {/* <h1 className="max-w-3xl text-gray-50 bg-clip-text text-center text-3xl font-medium leading-tight text-transparent sm:text-xl sm:leading-tight md:leading-tight">
-                    Mark Porter
-                  </h1> */}
-                  <ListItem NavLink="about-section">About</ListItem>
-                  <ListItem NavLink="skills-section">Skills</ListItem>
-
+              <nav className="flex flex-row w-full justify-between bg-opacity-5 bg-gray-50 z-10 transition-transform space-x-2 px-4 py-2" id="navbar">
+                <div>
+                  <img className="w-12 h-12" src={Portz} onClick={()=>handleClick("home-section")}></img>
+                </div>
+                <div className="space-x-2">
                   <SocialIcon className="hover:scale-105 active:scale-95 hover:transition-all" url="https://www.linkedin.com/in/mark-porter-51301a187/" />
                   <SocialIcon className="hover:scale-105 active:scale-95 hover:transition-all" url="https://github.com/mpvii" />
-
-
-                  
-                {/* </ul> */}
+                  <SocialIcon className="hover:scale-105 active:scale-95 hover:transition-all" url="mailto:mrkprtr@hotmail.co.uk" />
+                </div>
               </nav>
-
       </section>
 
   );
