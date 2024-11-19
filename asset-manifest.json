@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/porterfolio/static/css/main.2712188c.css",
-    "main.js": "/porterfolio/static/js/main.4490a8f1.js",
+    "main.js": "/porterfolio/static/js/main.237894c0.js",
     "static/js/976.cfaad0ec.chunk.js": "/porterfolio/static/js/976.cfaad0ec.chunk.js",
     "static/js/893.1be1387f.chunk.js": "/porterfolio/static/js/893.1be1387f.chunk.js",
     "static/js/453.abd36b29.chunk.js": "/porterfolio/static/js/453.abd36b29.chunk.js",
@@ -10,6 +10,7 @@
     "static/media/coding.jpeg": "/porterfolio/static/media/coding.4d4966906530c6f72ba1.jpeg",
     "static/media/blockchain.jpeg": "/porterfolio/static/media/blockchain.5f19993f6949dfa47310.jpeg",
     "static/media/steamdeck.jpeg": "/porterfolio/static/media/steamdeck.bf3394dde3e892af8eb1.jpeg",
+    "static/media/data_science.jpeg": "/porterfolio/static/media/data_science.cff569d3ccc2d7f76038.jpeg",
     "static/media/youtube.jpeg": "/porterfolio/static/media/youtube.47a824fb358ff713588a.jpeg",
     "static/media/app_development.jpeg": "/porterfolio/static/media/app_development.28e06caf413e6b1e9986.jpeg",
     "static/media/apple_watch.jpeg": "/porterfolio/static/media/apple_watch.73b3d0892fd9db557162.jpeg",
@@ -18,13 +19,13 @@
     "static/media/portz.png": "/porterfolio/static/media/portz.7f032e6bcce57303836c.png",
     "index.html": "/porterfolio/index.html",
     "main.2712188c.css.map": "/porterfolio/static/css/main.2712188c.css.map",
-    "main.4490a8f1.js.map": "/porterfolio/static/js/main.4490a8f1.js.map",
+    "main.237894c0.js.map": "/porterfolio/static/js/main.237894c0.js.map",
     "976.cfaad0ec.chunk.js.map": "/porterfolio/static/js/976.cfaad0ec.chunk.js.map",
     "893.1be1387f.chunk.js.map": "/porterfolio/static/js/893.1be1387f.chunk.js.map",
     "453.abd36b29.chunk.js.map": "/porterfolio/static/js/453.abd36b29.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2712188c.css",
-    "static/js/main.4490a8f1.js"
+    "static/js/main.237894c0.js"
   ]
 }
