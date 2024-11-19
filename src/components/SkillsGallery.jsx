@@ -32,14 +32,6 @@ const skills = [
   { name: 'Tensorflow', Icon: DevIcons.TensorflowOriginal, color: '' },
 ];
 
-const skills_future = [
-    { name: 'Go', Icon: DevIcons.GoOriginal, color: '' },
-    { name: 'TypeScript', Icon: DevIcons.TypescriptOriginal, color: '' },
-    { name: 'Rust', Icon: DevIcons.RustLine, color: 'white' },
-    { name: 'Illustrator', Icon: DevIcons.IllustratorLine, color: 'orange' },
-  ];
-
-
 const SkillsGallery = () => {
     const containerRef = useRef();
   
@@ -72,7 +64,7 @@ const SkillsGallery = () => {
       <div className="flex items-center justify-center">
         <div
           ref={containerRef}
-          className="w-full max-w-[80%] grid xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-2 "
+          className="w-full max-w-[80%] grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-2 "
         >
           {skills.map((skill, index) => (
             <div

@@ -14,36 +14,34 @@ const WaterDropHero = () => {
       <div className="relative flex flex-col items-center md:flex-row md:space-x-12 mx-auto max-w-5xl">
         {/* Text Content */}
         <div className="relative z-10 text-center md:text-left flex-1 mb-6 md:mb-0">
-          <Reveal>
-            <h1 className="pointer-events-auto text-6xl font-black text-slate-100 md:text-8xl">
-              Hi, I'm Mark<span className="text-indigo-500">.</span>
-            </h1>
-          </Reveal>
-          <Reveal>
-            <h2 className="pointer-events-auto my-2 text-2xl text-slate-400 md:my-4 md:text-4xl">
-              I'm a{" "}
-              <span className="font-semibold text-indigo-500">
-                Full Stack Developer
-              </span>
-            </h2>
-          </Reveal>
-          <Reveal>
-            <p className="pointer-events-auto max-w-xl mx-auto md:mx-0 text-sm text-slate-300 md:text-base">
-              I've spent the last 6 years in industry building and scaling
-              software.
-            </p>
-          </Reveal>
-          <Reveal>
-          <div className="flex-auto min-h-[100px] place-content-center space-x-4 bg-slate-900 py-2">
-           <WetPaintButton text="Contact Me"/>
-           <WetPaintButton text="Download My CV"/>
-           <WetPaintButton text="View My Profiles"/>
-          </div>
-            {/* <button className="pointer-events-auto mt-4 rounded bg-indigo-600 px-4 py-2 font-medium text-slate-100 transition-all hover:bg-indigo-700 active:scale-95 md:mt-6">
-              Contact me
-            </button> */}
-          </Reveal>
-        </div>
+  <Reveal>
+    <h1 className="pointer-events-auto text-6xl font-black text-slate-100 md:text-8xl">
+      Hi, I'm Mark<span className="text-indigo-500">.</span>
+    </h1>
+  </Reveal>
+  <Reveal>
+    <h2 className="pointer-events-auto my-2 text-2xl text-slate-400 md:my-4 md:text-4xl">
+      I'm a{" "}
+      <span className="font-semibold text-indigo-500">
+        Full Stack Developer
+      </span>
+    </h2>
+  </Reveal>
+  <Reveal>
+    <p className="pointer-events-auto max-w-xl mx-auto md:mx-0 text-sm text-slate-300 md:text-base">
+      I've spent the last 6 years in industry building and scaling software.
+    </p>
+  </Reveal>
+  <Reveal>
+    <div className="flex-auto min-h-[100px] w-full place-content-center space-x-4 space-y-6 md:space-y-0 md:space-x-4 bg-slate-900 py-8 flex flex-col md:flex-row items-start md:items-center justify-start md:justify-center">
+      <WetPaintButton text="Contact Me" />
+      <WetPaintButton text="Download My CV" />
+      <WetPaintButton text="View My Profiles" />
+    </div>
+  </Reveal>
+</div>
+
+
 
         {/* Image/Photo Switcher */}
         <motion.div

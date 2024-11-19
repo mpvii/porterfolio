@@ -10,6 +10,8 @@ import CloudComputing from "../assets/cloud_computing.jpeg"
 import Blockchain from "../assets/blockchain.jpeg"
 import AppleWatch from "../assets/apple_watch.jpeg"
 import AppDevelopment from "../assets/app_development.jpeg"
+import SteamDeck from "../assets/steamdeck.jpeg"
+import YouTube from "../assets/youtube.jpeg"
 
 
 const CARD_WIDTH = 350;
@@ -152,45 +154,60 @@ const items = [
   {
     id: 1,
     image: ArtficialIntelligence, // Use imported image
-    category: "Artificial Intelligence",
-    title: "Smarter Solutions",
-    description: "Explore the cutting-edge technologies shaping the future.",
+    category: "Amazon Web Services",
+    title: "Data Science Platforms",
+    description: "I have built scalable Data Science Platforms in AWS SageMaker supporting over 250 internal projects.",
   },
   {
     id: 2,
     image: AppDevelopment, // Use the same or another imported image
-    category: "Innovation",
-    title: "Pioneering Ideas",
-    description: "Transform your business with innovative AI-driven ideas.",
+    category: "Swift | React js/Native",
+    title: "Web/Mobile App Development",
+    description: "Built Web and Mobile Applications focusing on customer experience, just like this page.",
   },
   {
     id: 3,
     image: AppleWatch, // Use the same or another imported image
-    category: "Innovation",
-    title: "Pioneering Ideas",
-    description: "Transform your business with innovative AI-driven ideas.",
+    category: "watchOS",
+    title: "Wearables",
+    description: "Building Apple Watch Apps in Swift to automate and improve my life.",
   },
   {
     id: 4,
-    image: Coding, // Use the same or another imported image
-    category: "Innovation",
-    title: "Pioneering Ideas",
-    description: "Transform your business with innovative AI-driven ideas.",
+    image: CloudComputing, // Use the same or another imported image
+    category: "Amazon Web Services",
+    title: "Infrastructure as Code",
+    description: "Over 6 years of AWS experience writing and deploying infrastructure to end-users, using AWS CloudFormation and Terraform.",
   },
   {
     id: 5,
-    image: CloudComputing, // Use the same or another imported image
-    category: "Innovation",
-    title: "Pioneering Ideas",
-    description: "Transform your business with innovative AI-driven ideas.",
+    image: YouTube, // Use the same or another imported image
+    category: "Photoshop | PremierePro",
+    title: "YouTube",
+    description: "Creating videos for my small but loyal audience. Each video and thumbnail is carefully created and edited showcasing my passion.",
   },
   {
     id: 6,
-    image: Blockchain, // Use the same or another imported image
-    category: "Innovation",
-    title: "Pioneering Ideas",
-    description: "Transform your business with innovative AI-driven ideas.",
+    image: SteamDeck, // Use the same or another imported image
+    category: "SteamOS",
+    title: "SteamDeck Tinkering",
+    description: "I love playing around with my console, installing software and customising it to be the perfect console for me.",
   },
+
+  {
+    id: 7,
+    image: Coding, // Use the same or another imported image
+    category: "Python | Java | JavaScript | Bash",
+    title: "Software Engineering",
+    description: "Over 10 years of experience coding in a variety of languages. I have also created and ran Python courses for internal employees at my previous organisation.",
+  },
+//   {
+//     id: 8,
+//     image: Blockchain, // Use the same or another imported image
+//     category: "Innovation",
+//     title: "Pioneering Ideas",
+//     description: "Transform your business with innovative AI-driven ideas.",
+//   },
 
   // Add more items with imported images as needed
 ];
