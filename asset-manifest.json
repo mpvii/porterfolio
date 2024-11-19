@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/porterfolio/static/css/main.c462689b.css",
-    "main.js": "/porterfolio/static/js/main.04929f70.js",
+    "main.css": "/porterfolio/static/css/main.04ccfc5d.css",
+    "main.js": "/porterfolio/static/js/main.fec97a83.js",
     "static/js/976.cfaad0ec.chunk.js": "/porterfolio/static/js/976.cfaad0ec.chunk.js",
     "static/js/893.1be1387f.chunk.js": "/porterfolio/static/js/893.1be1387f.chunk.js",
     "static/js/453.abd36b29.chunk.js": "/porterfolio/static/js/453.abd36b29.chunk.js",
     "static/media/artificial_intelligence.jpeg": "/porterfolio/static/media/artificial_intelligence.c736bc5532d28d0b9e77.jpeg",
     "static/media/coding.jpeg": "/porterfolio/static/media/coding.4d4966906530c6f72ba1.jpeg",
+    "static/media/hacker.jpeg": "/porterfolio/static/media/hacker.c3c2fcb4348ebc63eb5b.jpeg",
     "static/media/cloud_computing.jpeg": "/porterfolio/static/media/cloud_computing.367a8e647ca80e74f49f.jpeg",
     "static/media/portz.png": "/porterfolio/static/media/portz.7f032e6bcce57303836c.png",
     "index.html": "/porterfolio/index.html",
-    "main.c462689b.css.map": "/porterfolio/static/css/main.c462689b.css.map",
-    "main.04929f70.js.map": "/porterfolio/static/js/main.04929f70.js.map",
+    "main.04ccfc5d.css.map": "/porterfolio/static/css/main.04ccfc5d.css.map",
+    "main.fec97a83.js.map": "/porterfolio/static/js/main.fec97a83.js.map",
     "976.cfaad0ec.chunk.js.map": "/porterfolio/static/js/976.cfaad0ec.chunk.js.map",
     "893.1be1387f.chunk.js.map": "/porterfolio/static/js/893.1be1387f.chunk.js.map",
     "453.abd36b29.chunk.js.map": "/porterfolio/static/js/453.abd36b29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c462689b.css",
-    "static/js/main.04929f70.js"
+    "static/css/main.04ccfc5d.css",
+    "static/js/main.fec97a83.js"
   ]
 }
