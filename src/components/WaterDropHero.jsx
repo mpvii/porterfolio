@@ -34,15 +34,12 @@ const WaterDropHero = () => {
   </Reveal>
   <Reveal>
     <div className="flex-auto min-h-[100px] w-full place-content-center space-x-4 space-y-6 md:space-y-0 md:space-x-4 bg-slate-900 py-8 flex flex-col md:flex-row items-start md:items-center justify-start md:justify-center">
-      <WetPaintButton text="Contact Me" />
+      <WetPaintButton section="footer-section" text="Contact Me" />
       <WetPaintButton text="Download My CV" />
-      <WetPaintButton text="View My Profiles" />
+      <WetPaintButton  section="footer-section" text="View My Profiles" />
     </div>
   </Reveal>
 </div>
-
-
-
         {/* Image/Photo Switcher */}
         <motion.div
           className="flex-1 w-full max-w-xs md:max-w-md mt-8 md:mt-0"

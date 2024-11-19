@@ -12,6 +12,7 @@ import AppleWatch from "../assets/apple_watch.jpeg"
 import AppDevelopment from "../assets/app_development.jpeg"
 import SteamDeck from "../assets/steamdeck.jpeg"
 import YouTube from "../assets/youtube.jpeg"
+import DataScience from "../assets/data_science.jpeg"
 
 
 const CARD_WIDTH = 350;
@@ -188,14 +189,20 @@ const items = [
   },
   {
     id: 6,
+    image: DataScience, // Use the same or another imported image
+    category: "Python | SageMaker | neo4j" ,
+    title: "Data Science",
+    description: "Ran and supported countless data science projects on Platform. I also have a MSc in Artifical Intelligence and Data Science which I undertook whislt working full-time.",
+  },
+  {
+    id: 7,
     image: SteamDeck, // Use the same or another imported image
     category: "SteamOS",
     title: "SteamDeck Tinkering",
     description: "I love playing around with my console, installing software and customising it to be the perfect console for me.",
   },
-
   {
-    id: 7,
+    id: 8,
     image: Coding, // Use the same or another imported image
     category: "Python | Java | JavaScript | Bash",
     title: "Software Engineering",

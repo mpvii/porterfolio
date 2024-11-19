@@ -60,7 +60,10 @@ function Home() {
            
             {/* <SkillTreeCust/> */}
             {/* <Skills/> */}
+            <div id="footer-section">
             <Footer/>
+            </div>
+            
         </div>
         );
     }
