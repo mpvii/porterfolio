@@ -1,6 +1,6 @@
 
 import Hacker from '../assets/hacker.jpeg';
-import Portz from '../assets/portz.png';
+import Mark from '../assets/mark.jpeg';
 
 import React, { useState, useEffect } from "react";
 import { useGlitch } from "react-powerglitch";
@@ -9,8 +9,9 @@ const GlitchPhotoSwitcher = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
   const images = [
-   Hacker,
-   Portz // Replace with your first image URL
+   
+   Mark, // Replace with your first image URL
+   Hacker
   ];
 
   const glitch = useGlitch({
@@ -45,7 +46,7 @@ const GlitchPhotoSwitcher = () => {
   return (
     <div
       className="flex items-center justify-center"
-      style={{ width: "300px", height: "200px", position: "relative" }}
+      style={{ width: "300px", position: "relative" }}
     >
       <img
         ref={glitch.ref} // Attach glitch effect to this image

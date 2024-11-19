@@ -5,6 +5,12 @@ import useMeasure from "react-use-measure";
 
 // Import AI-generated images or other assets
 import ArtficialIntelligence from "../assets/artificial_intelligence.jpeg";
+import Coding from "../assets/coding.jpeg"
+import CloudComputing from "../assets/cloud_computing.jpeg"
+import Blockchain from "../assets/blockchain.jpeg"
+import AppleWatch from "../assets/apple_watch.jpeg"
+import AppDevelopment from "../assets/app_development.jpeg"
+
 
 const CARD_WIDTH = 350;
 const CARD_HEIGHT = 350;
@@ -152,35 +158,35 @@ const items = [
   },
   {
     id: 2,
-    image: ArtficialIntelligence, // Use the same or another imported image
+    image: AppDevelopment, // Use the same or another imported image
     category: "Innovation",
     title: "Pioneering Ideas",
     description: "Transform your business with innovative AI-driven ideas.",
   },
   {
     id: 3,
-    image: ArtficialIntelligence, // Use the same or another imported image
+    image: AppleWatch, // Use the same or another imported image
     category: "Innovation",
     title: "Pioneering Ideas",
     description: "Transform your business with innovative AI-driven ideas.",
   },
   {
     id: 4,
-    image: ArtficialIntelligence, // Use the same or another imported image
+    image: Coding, // Use the same or another imported image
     category: "Innovation",
     title: "Pioneering Ideas",
     description: "Transform your business with innovative AI-driven ideas.",
   },
   {
     id: 5,
-    image: ArtficialIntelligence, // Use the same or another imported image
+    image: CloudComputing, // Use the same or another imported image
     category: "Innovation",
     title: "Pioneering Ideas",
     description: "Transform your business with innovative AI-driven ideas.",
   },
   {
     id: 6,
-    image: ArtficialIntelligence, // Use the same or another imported image
+    image: Blockchain, // Use the same or another imported image
     category: "Innovation",
     title: "Pioneering Ideas",
     description: "Transform your business with innovative AI-driven ideas.",
