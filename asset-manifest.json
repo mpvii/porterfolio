@@ -1,24 +1,28 @@
 {
   "files": {
     "main.css": "/porterfolio/static/css/main.04ccfc5d.css",
-    "main.js": "/porterfolio/static/js/main.fec97a83.js",
+    "main.js": "/porterfolio/static/js/main.80f6ef53.js",
     "static/js/976.cfaad0ec.chunk.js": "/porterfolio/static/js/976.cfaad0ec.chunk.js",
     "static/js/893.1be1387f.chunk.js": "/porterfolio/static/js/893.1be1387f.chunk.js",
     "static/js/453.abd36b29.chunk.js": "/porterfolio/static/js/453.abd36b29.chunk.js",
+    "static/media/mark.jpeg": "/porterfolio/static/media/mark.81ce7801f3bf5d8098f7.jpeg",
     "static/media/artificial_intelligence.jpeg": "/porterfolio/static/media/artificial_intelligence.c736bc5532d28d0b9e77.jpeg",
     "static/media/coding.jpeg": "/porterfolio/static/media/coding.4d4966906530c6f72ba1.jpeg",
-    "static/media/hacker.jpeg": "/porterfolio/static/media/hacker.c3c2fcb4348ebc63eb5b.jpeg",
+    "static/media/blockchain.jpeg": "/porterfolio/static/media/blockchain.5f19993f6949dfa47310.jpeg",
+    "static/media/app_development.jpeg": "/porterfolio/static/media/app_development.28e06caf413e6b1e9986.jpeg",
+    "static/media/apple_watch.jpeg": "/porterfolio/static/media/apple_watch.73b3d0892fd9db557162.jpeg",
+    "static/media/hacker.jpeg": "/porterfolio/static/media/hacker.446f05dc2c268410dd39.jpeg",
     "static/media/cloud_computing.jpeg": "/porterfolio/static/media/cloud_computing.367a8e647ca80e74f49f.jpeg",
     "static/media/portz.png": "/porterfolio/static/media/portz.7f032e6bcce57303836c.png",
     "index.html": "/porterfolio/index.html",
     "main.04ccfc5d.css.map": "/porterfolio/static/css/main.04ccfc5d.css.map",
-    "main.fec97a83.js.map": "/porterfolio/static/js/main.fec97a83.js.map",
+    "main.80f6ef53.js.map": "/porterfolio/static/js/main.80f6ef53.js.map",
     "976.cfaad0ec.chunk.js.map": "/porterfolio/static/js/976.cfaad0ec.chunk.js.map",
     "893.1be1387f.chunk.js.map": "/porterfolio/static/js/893.1be1387f.chunk.js.map",
     "453.abd36b29.chunk.js.map": "/porterfolio/static/js/453.abd36b29.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04ccfc5d.css",
-    "static/js/main.fec97a83.js"
+    "static/js/main.80f6ef53.js"
   ]
 }
