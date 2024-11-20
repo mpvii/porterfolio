@@ -6,7 +6,6 @@ import {
   animate,
 } from "framer-motion";
 import Portz from '../assets/portz.png';
-import "./NavBar.css"
 
 import { SocialIcon } from 'react-social-icons'
 

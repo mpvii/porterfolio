@@ -9,6 +9,17 @@ import {
   animate,
 } from "framer-motion";
 
+import MyCV from "../assets/Mark_Porter_cv.docx"
+
+const handleCvClick = () => {
+  const url = MyCV; // Path to your CV
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = "Mark_Porter_cv.docx"; // Name the file for download
+  link.click();
+};
+
+
 // const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
 const COLORS_TOP = ["#6366F1", "#FC037B", "#00EAFF"]; 
 
@@ -42,7 +53,9 @@ export const Hero = () => {
       className="relative grid min-h-screen place-content-center overflow-hidden bg-gray-950 px-4 py-24 text-gray-200"
     >
       <div className="relative z-10 flex flex-col items-center">
-        <motion.button className="group relative flex w-fit items-center gap-1.5 hover:scale-105 active:scale-95 mb-1.5 inline-block rounded-full bg-gray-600/50 px-3 py-1.5 text-sm">
+        <motion.button 
+          onClick={() => handleCvClick()}
+          className="group relative flex w-fit items-center gap-1.5 hover:scale-105 active:scale-95 mb-1.5 inline-block rounded-full bg-gray-600/50 px-3 py-1.5 text-sm">
           Download My CV
           <FiDownload className="transition-transform group-hover:scale-105 group-hover:rotate-12 group-active:-rotate-45" />
         </motion.button>

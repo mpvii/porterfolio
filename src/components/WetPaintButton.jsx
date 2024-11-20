@@ -1,10 +1,8 @@
 import { motion } from "framer-motion";
 
-const handleClick = (element) => {
-    document.getElementById(element).scrollIntoView()
-  };
 
-const WetPaintButton = ({ text, section }) => {
+
+const WetPaintButton = ({ text, onClick }) => {
   // Slightly randomized positions with base positions and variance
   const basePositions = [10, 35, 60, 85]; // Base positions for consistent spacing
   const drips = basePositions.map((base) => ({
@@ -17,7 +15,7 @@ const WetPaintButton = ({ text, section }) => {
     <motion.button
       className="group relative rounded bg-indigo-500 px-4 py-2.5 font-semibold text-white transition-colors hover:bg-indigo-600"
       whileTap={{ scale: 0.95 }} // Slightly decrease size when clicked
-      onClick={() => handleClick(section)}>
+      onClick={onClick}>
       {text}
       {drips.map((drip, index) => (
         <Drip key={index} left={drip.left} height={drip.height} delay={drip.delay} />

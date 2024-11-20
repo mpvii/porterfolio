@@ -3,8 +3,26 @@ import anime from "animejs";
 import { useAnimation, useInView, motion } from "framer-motion";
 import { useGlitch } from "react-powerglitch";
 
+import MyCV from "../assets/Mark_Porter_cv.docx"
+
 import GlitchPhotoSwitcher from "./GlitchPhotoSwitcher";
 import WetPaintButton from "./WetPaintButton";
+
+const handleContactClick = () => {
+    window.location.href = "mailto:mrkprtr@hotmail.co.uk";
+    };
+
+const handleProfileClick = (element) => {
+    document.getElementById(element).scrollIntoView()
+  };
+
+const handleCvClick = () => {
+    const url = MyCV; // Path to your CV
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "Mark_Porter_cv.docx"; // Name the file for download
+    link.click();
+};
 
 const WaterDropHero = () => {
   const glitch = useGlitch();
@@ -34,9 +52,9 @@ const WaterDropHero = () => {
   </Reveal>
   <Reveal>
     <div className="flex-auto min-h-[100px] w-full place-content-center space-x-4 space-y-6 md:space-y-0 md:space-x-4 bg-slate-900 py-8 flex flex-col md:flex-row items-start md:items-center justify-start md:justify-center">
-      <WetPaintButton section="footer-section" text="Contact Me" />
-      <WetPaintButton text="Download My CV" />
-      <WetPaintButton  section="footer-section" text="View My Profiles" />
+      <WetPaintButton onClick={() => handleContactClick()} text="Contact Me" />
+      <WetPaintButton onClick={() => handleCvClick()} text="Download My CV" />
+      <WetPaintButton  onClick={() => handleProfileClick("footer-section")} text="View My Profiles" />
     </div>
   </Reveal>
 </div>

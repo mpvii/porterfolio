@@ -164,7 +164,7 @@ const items = [
     image: AppDevelopment, // Use the same or another imported image
     category: "Swift | React js/Native",
     title: "Web/Mobile App Development",
-    description: "Built Web and Mobile Applications focusing on customer experience, just like this page.",
+    description: "Built Web and Mobile Applications focusing on the customer experience, just like this page.",
   },
   {
     id: 3,
@@ -192,13 +192,13 @@ const items = [
     image: DataScience, // Use the same or another imported image
     category: "Python | SageMaker | neo4j" ,
     title: "Data Science",
-    description: "Ran and supported countless data science projects on Platform. I also have a MSc in Artifical Intelligence and Data Science which I undertook whislt working full-time.",
+    description: "Ran and supported countless data science projects on Platform. I also have anchor MSc in Artifical Intelligence and Data Science which I undertook whilst working full-time.",
   },
   {
     id: 7,
     image: SteamDeck, // Use the same or another imported image
     category: "SteamOS",
-    title: "SteamDeck Tinkering",
+    title: "Steam Deck Tinkering",
     description: "I love playing around with my console, installing software and customising it to be the perfect console for me.",
   },
   {

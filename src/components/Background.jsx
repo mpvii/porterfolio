@@ -36,7 +36,6 @@ import {
   motion,
   animate,
 } from "framer-motion";
-import Skills from "./SkillsCarousel";
 
 // const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
 const COLORS_TOP = ["#6366F1", "#FC037B", "#00EAFF"]; 
