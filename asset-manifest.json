@@ -1,9 +1,7 @@
 {
   "files": {
-    "main.css": "/porterfolio/static/css/main.2712188c.css",
-    "main.js": "/porterfolio/static/js/main.237894c0.js",
-    "static/js/976.cfaad0ec.chunk.js": "/porterfolio/static/js/976.cfaad0ec.chunk.js",
-    "static/js/893.1be1387f.chunk.js": "/porterfolio/static/js/893.1be1387f.chunk.js",
+    "main.css": "/porterfolio/static/css/main.11fe10ea.css",
+    "main.js": "/porterfolio/static/js/main.13595f9f.js",
     "static/js/453.abd36b29.chunk.js": "/porterfolio/static/js/453.abd36b29.chunk.js",
     "static/media/mark.jpeg": "/porterfolio/static/media/mark.81ce7801f3bf5d8098f7.jpeg",
     "static/media/artificial_intelligence.jpeg": "/porterfolio/static/media/artificial_intelligence.c736bc5532d28d0b9e77.jpeg",
@@ -17,15 +15,14 @@
     "static/media/hacker.jpeg": "/porterfolio/static/media/hacker.446f05dc2c268410dd39.jpeg",
     "static/media/cloud_computing.jpeg": "/porterfolio/static/media/cloud_computing.367a8e647ca80e74f49f.jpeg",
     "static/media/portz.png": "/porterfolio/static/media/portz.7f032e6bcce57303836c.png",
+    "static/media/Mark_Porter_cv.docx": "/porterfolio/static/media/Mark_Porter_cv.6363321841936bd65bf9.docx",
     "index.html": "/porterfolio/index.html",
-    "main.2712188c.css.map": "/porterfolio/static/css/main.2712188c.css.map",
-    "main.237894c0.js.map": "/porterfolio/static/js/main.237894c0.js.map",
-    "976.cfaad0ec.chunk.js.map": "/porterfolio/static/js/976.cfaad0ec.chunk.js.map",
-    "893.1be1387f.chunk.js.map": "/porterfolio/static/js/893.1be1387f.chunk.js.map",
+    "main.11fe10ea.css.map": "/porterfolio/static/css/main.11fe10ea.css.map",
+    "main.13595f9f.js.map": "/porterfolio/static/js/main.13595f9f.js.map",
     "453.abd36b29.chunk.js.map": "/porterfolio/static/js/453.abd36b29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2712188c.css",
-    "static/js/main.237894c0.js"
+    "static/css/main.11fe10ea.css",
+    "static/js/main.13595f9f.js"
   ]
 }
